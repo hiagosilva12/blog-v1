@@ -1,25 +1,29 @@
 import React from "react"
-
+import PropTypes from "prop-types"
 import Img from "../../images/iconrea.png"
 
 import * as S from "./styled"
 
-const PostItem = () => (
-  <S.PostItemLink to="/slug/">
+const PostItem = ({ slug, date, title, description }) => (
+  <S.PostItemLink to={slug}>
     <S.PostItemWrapper>
       <S.PostItemTag>
         <S.Img src={Img} alt="Teste" />
       </S.PostItemTag>
       <S.PostItemInfo>
-        <S.PostItemDate>13 de Janeiro de 2022</S.PostItemDate>
-        <S.PostItemTitle>Hiago publicou.</S.PostItemTitle>
-        <S.PostItemDescription>
-          "Ser desenvolvedor é uma viagem onde a próxima parada é a solução de
-          um problema."
-        </S.PostItemDescription>
+        <S.PostItemDate>{date}</S.PostItemDate>
+        <S.PostItemTitle>{title}</S.PostItemTitle>
+        <S.PostItemDescription>{description}</S.PostItemDescription>
       </S.PostItemInfo>
     </S.PostItemWrapper>
   </S.PostItemLink>
 )
+
+PostItem.propTypes = {
+  slug: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+}
 
 export default PostItem
