@@ -13,6 +13,7 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
+    `gatsby-plugin-netlify`,
     // Sempre tem que ser a primeira para funcionar o remark
     {
       resolve: `gatsby-source-filesystem`,
