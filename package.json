@@ -35,9 +35,11 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "react-instantsearch-dom": "^6.22.0",
+    "source-map-resolve": "^0.6.0",
     "source-map-url": "^0.4.1",
     "styled-components": "^5.3.3",
-    "styled-icons": "^10.45.0"
+    "styled-icons": "^10.45.0",
+    "urix": "^0.1.0"
   },
   "devDependencies": {
     "prettier": "^2.5.1"
