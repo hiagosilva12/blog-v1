@@ -7,7 +7,7 @@ module.exports = {
     title: `Hiago Da Silva`,
     description: `Esse blog foi feito com o intuito de aprender mais sobre o frontend e backend.`,
     position: "Frontend Developer",
-    siteUrl: `https://devhiago.com.br`,
+    siteUrl: `https://blog-hiago.netlify.app/`,
     image: "/assets/img/cover.png",
   },
   plugins: [
@@ -87,5 +87,6 @@ module.exports = {
     },
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }
