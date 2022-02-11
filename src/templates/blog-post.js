@@ -5,12 +5,14 @@ import Layout from "../components/Layout"
 import Seo from "../components/seo"
 import RecommendedPosts from "../components/RecommendedPosts"
 import Comments from "../components/Comments"
+
 import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
   const next = pageContext.nextPost
   const previous = pageContext.previousPost
+
   return (
     <Layout>
       <Seo
@@ -33,7 +35,7 @@ const BlogPost = ({ data, pageContext }) => {
 }
 
 export const query = graphql`
-  query Post($slug: String) {
+  query Post($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       fields {
         slug

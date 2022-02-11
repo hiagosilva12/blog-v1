@@ -1,7 +1,18 @@
 const path = require("path")
 const { createFilePath } = require(`gatsby-source-filesystem`)
-const { resolve } = require("path")
-const { nextTick } = require("process")
+
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      image: String
+    }
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `)
+}
 
 // To add the slug field to each post
 exports.onCreateNode = ({ node, getNode, actions }) => {
@@ -14,7 +25,6 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
       getNode,
       basePath: "pages",
     })
-
     // Creates new query'able field with name of 'slug'
     createNodeField({
       node,
@@ -23,10 +33,8 @@ exports.onCreateNode = ({ node, getNode, actions }) => {
     })
   }
 }
-
 exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
-
   return graphql(`
     {
       allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
@@ -36,6 +44,8 @@ exports.createPages = ({ graphql, actions }) => {
               slug
             }
             frontmatter {
+              background
+              category
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               description
               title
@@ -52,11 +62,11 @@ exports.createPages = ({ graphql, actions }) => {
             }
           }
           previous {
-            frontmatter {
-              title
-            }
             fields {
               slug
+            }
+            frontmatter {
+              title
             }
           }
         }
@@ -68,18 +78,18 @@ exports.createPages = ({ graphql, actions }) => {
     posts.forEach(({ node, next, previous }) => {
       createPage({
         path: node.fields.slug,
-        component: path.resolve("./src/templates/blog-post.js"),
+        component: path.resolve(`./src/templates/blog-post.js`),
         context: {
+          // Data passed to context is available
+          // in page queries as GraphQL variables.
           slug: node.fields.slug,
           previousPost: next,
           nextPost: previous,
         },
       })
     })
-
     const postsPerPage = 3
     const numPages = Math.ceil(posts.length / postsPerPage)
-
     Array.from({ length: numPages }).forEach((_, index) => {
       createPage({
         path: index === 0 ? `/` : `/page/${index + 1}`,

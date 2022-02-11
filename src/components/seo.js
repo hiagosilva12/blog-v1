@@ -11,6 +11,7 @@ function Seo({ description, lang, meta, title, image }) {
           siteMetadata {
             title
             description
+            defaultImage: image
             siteUrl
           }
         }
@@ -28,7 +29,7 @@ function Seo({ description, lang, meta, title, image }) {
         lang,
       }}
       title={title}
-      titleTemplate={defaultTitle ? `%s | ${defaultTitle}` : null}
+      titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
@@ -78,6 +79,7 @@ function Seo({ description, lang, meta, title, image }) {
 Seo.defaultProps = {
   lang: `en`,
   meta: [],
+  image: null,
   description: ``,
 }
 
@@ -86,6 +88,7 @@ Seo.propTypes = {
   lang: PropTypes.string,
   meta: PropTypes.arrayOf(PropTypes.object),
   title: PropTypes.string.isRequired,
+  image: PropTypes.string,
 }
 
 export default Seo
