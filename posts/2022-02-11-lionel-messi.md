@@ -2,7 +2,6 @@
 title: Lionel Messi
 description: A história do Lionel Messi.
 date: 2022-02-11 04:27:59
-thumbnail: assets/img/lionel_messi_psg.jpg
 ---
 
 ![Messi](/assets/img/messi.jpg)
