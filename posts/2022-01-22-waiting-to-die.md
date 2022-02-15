@@ -16,7 +16,7 @@ O compositor alemão soube captar as características do romantismo e escreveu o
 
 Ludwig Van Beethoven era filho de Johann van Beethoven, músico e Maria Magdalena Kepenisritch e foi o segundo filho de uma família de sete irmãos. Nasceu em Bonn, Alemanha, no dia 17 de dezembro de 1770.
 
-![Beethoven](/assets/img/beethoven.jpg)
+![Beethoven](static/assets/img/beethoven.jpg)
 Ludwig van Beethoven escrevendo a partitura da "Missa Solene". Autor: Joseph Karl Stieler (1820)
 
 Seu avô, Lodewijk van Beethoven, pianista e regente, ocupou o prestigioso cargo de maestro da capela do príncipe-bispo Clemente Augusto de Wittelsbach, em Colônia. O pai de Beethoven também era músico e ambos o incentivaram desde cedo a estudar música.

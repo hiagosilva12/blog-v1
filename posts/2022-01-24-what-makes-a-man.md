@@ -4,7 +4,7 @@ title: Neymar Jr
 description: A história do Menino Ney.
 ---
 
-![Desert](/assets/img/neymar.jpg)
+![Desert](static/assets/img/neymar.jpg)
 
 Neymar da Silva Santos Júnior, mais conhecido como Neymar ou Neymar Jr. (Mogi das Cruzes, 5 de fevereiro de 1992), é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo.
 

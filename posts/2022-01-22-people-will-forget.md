@@ -2,7 +2,6 @@
 date: 2022-01-22 05:54:23
 title: People will forget what you
 description: But people will never forget how you made them feel.
-background: "#7d669e"
 image: "/assets/img/ocean.jpg"
 ---
 

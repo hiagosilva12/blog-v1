@@ -7,7 +7,6 @@ const Hit = ({ hit }) => (
     slug={hit.fields.slug}
     title={hit.title}
     description={hit.description}
-    category={hit.category}
   />
 )
 
