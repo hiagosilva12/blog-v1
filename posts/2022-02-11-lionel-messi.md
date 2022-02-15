@@ -2,9 +2,10 @@
 title: Lionel Messi
 description: A história do Lionel Messi.
 date: 2022-02-11 04:27:59
+image: /assets/img/messi.jpg
 ---
 
-![Messi](static/assets/img/messi.jpg)
+![Messi](/assets/img/messi.jpg)
 
 **Lionel Andrés Messi Cuccittini** [Embaixador(a) da boa vontade](https://pt.wikipedia.org/wiki/Embaixador_da_Boa_Vontade "Embaixador da Boa Vontade") da [UNICEF](https://pt.wikipedia.org/wiki/UNICEF "UNICEF") ([Rosário](<https://pt.wikipedia.org/wiki/Ros%C3%A1rio_(Argentina)> "Rosário (Argentina)"), [24 de junho](https://pt.wikipedia.org/wiki/24_de_junho "24 de junho") de [1987](https://pt.wikipedia.org/wiki/1987 "1987")) é um [futebolista](https://pt.wikipedia.org/wiki/Futebolista "Futebolista") [argentino](https://pt.wikipedia.org/wiki/Argentinos "Argentinos") que atua como [atacante](<https://pt.wikipedia.org/wiki/Atacante_(futebol)> "Atacante (futebol)"). Atualmente joga pelo [Paris Saint-Germain](https://pt.wikipedia.org/wiki/Paris_Saint-Germain_Football_Club "Paris Saint-Germain Football Club") e pela [Seleção Argentina](https://pt.wikipedia.org/wiki/Sele%C3%A7%C3%A3o_Argentina_de_Futebol "Seleção Argentina de Futebol"), onde é [capitão](<https://pt.wikipedia.org/wiki/Capit%C3%A3o_(futebol)> "Capitão (futebol)").
 
