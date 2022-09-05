@@ -10,6 +10,7 @@ const algolia = {
   SearchOnlyApiKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
   indexName: process.env.GATSBY_ALGOLIA_INDEX_NAME,
 }
+
 const searchClient = algoliasearch(algolia.appId, algolia.SearchOnlyApiKey)
 
 const Search = () => (

@@ -1,42 +1,16 @@
 ---
 date: 2022-01-24 05:54:23
-title: What makes a man?
-description: Spend his whole life in disguise?
-category: misc
-background: "#47650b"
+title: Neymar Jr
+description: A história do Menino Ney.
+image: /assets/img/neymar.jpg
 ---
 
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
+![Neymar Jr](/assets/img/neymar.jpg)
 
-![Desert](/assets/img/desert.jpg)
+Neymar da Silva Santos Júnior, mais conhecido como Neymar ou Neymar Jr. (Mogi das Cruzes, 5 de fevereiro de 1992), é um futebolista brasileiro que atua como atacante. Atualmente joga pelo Paris Saint-Germain e pela Seleção Brasileira. É considerado o principal futebolista brasileiro da atualidade e um dos melhores futebolistas do mundo.
 
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+Revelado pelo Santos em 2009, Neymar ganhou diversos títulos com o clube, incluindo dois Campeonatos Paulistas seguidos, uma Copa do Brasil e uma Libertadores; com esse último sendo o primeiro do Santos desde 1963. Ele ganhou por duas vezes seguidas o prêmio de melhor jogador sul-americano do ano, em 2011 e 2012, e um prêmio Puskás, de gol mais bonito do ano, em 2011. Em 2013, foi vendido ao Barcelona, após ser protagonista da conquista da Copa das Confederações de 2013 pela Seleção Brasileira. Considerada a venda mais cara da história do futebol brasileiro, Neymar, na sua segunda temporada pelo clube espanhol, estrelando um trio de ataque ao lado de Lionel Messi e Luis Suárez, conquistou a tríplice coroa de La Liga, Copa del Rey e Liga dos Campeões da UEFA, terminando como um dos artilheiros da última e se consagrando como um dos melhores futebolistas do mundo, sendo finalista da Bola de Ouro da FIFA por suas atuações no mesmo ano. Em 2017, se tornou a transferência mais cara da história do futebol, com sua venda milionária ao Paris Saint-Germain por 222 milhões de euros. Nesse mesmo ano, foi pela segunda vez na carreira um dos três finalistas da premiação da FIFA de melhor jogador do mundo, desta vez nomeada The Best FIFA Football Awards. Na sua terceira temporada em Paris, Neymar ajudou o PSG a chegar em sua primeira final de Liga dos Campeões, na qual eles perderam por 1–0. Neymar é o jogador brasileiro com mais com gols por esta competição desde 2018, quando superou Kaká.
 
-```jsx
-import React from "react"
-import Profile from "../Profile"
-import SocialLinks from "../SocialLinks"
-import MenuLinks from "../MenuLinks"
-import * as S from "./styled"
-const Sidebar = () => (
-  <S.SidebatWrapper>
-    <Profile />
-    <SocialLinks />
-    <MenuLinks />
-  </S.SidebatWrapper>
-)
+Pela Seleção Brasileira, Neymar estreou com 18 anos e atualmente é o camisa 10, principal jogador e o segundo maior artilheiro da história da Seleção, ficando atrás apenas de Pelé. Disputou a Copa do Mundo FIFA de 2014, onde marcou quatro gols em cinco partidas, mas sofreu uma grave lesão na coluna durante as quartas de final contra a Colômbia, o que o afastou da competição. No ano anterior havia conquistado o título da Copa das Confederações FIFA, sendo a principal estrela brasileira durante os cinco jogos da campanha, onde fez quatro gols e deu três assistências, tendo, inclusive, levado o prêmio de melhor jogador da competição e ainda a Chuteira de Bronze. Participou da Copa do Mundo FIFA de 2018, marcou dois gols, mas o Brasil foi eliminado nas quartas de finais. Também disputou três edições da Copa América, em 2011, 2015 e 2021, sem conseguir passar das quartas de finais nas duas primeiras oportunidades e perdendo o título para a Argentina na última. Em 2016, fez parte do elenco que ganhou o primeiro título olímpico da história da Canarinho, marcando o pênalti que deu o título e saindo como herói.
 
-export default Sidebar
-```
-
-Fusce a metus eu diam varius congue nec nec sapien. Vestibulum orci tortor, sollicitudin ac euismod non, placerat ac augue. Nunc convallis accumsan justo. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec malesuada vehicula lectus, viverra sodales ipsum gravida nec.
-
-> Proin ornare ligula eu tellus tempus elementum. Aenean bibendum iaculis mi, nec blandit lacus interdum vitae. Vestibulum non nibh risus, a scelerisque purus. Ut vel arcu ac tortor adipiscing hendrerit vel sed massa. Fusce sem libero, lacinia vulputate interdum non, porttitor non quam. Aliquam sed felis ligula. Duis non nulla magna.
-
-Nullam eros mi, mollis in sollicitudin non, tincidunt sed enim. Sed et felis metus, rhoncus ornare nibh. Ut at magna leo. Suspendisse egestas est ac dolor imperdiet pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam porttitor, erat sit amet venenatis luctus, augue libero ultrices quam, ut congue nisi risus eu purus. Cras semper consectetur elementum.
-
-### Cras semper consectetur elementum
-
-Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
-
-Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, bibendum eu pulvinar vel, sodales vitae dui. Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin bibendum ullamcorper rutrum.
+Fora de campo, Neymar é um dos atletas mais bem sucedidos do mundo; A SportsPro o nomeou o atleta mais comercializável do mundo em 2012 e 2013, e a ESPN o citou como o quarto atleta mais famoso do mundo em 2016. Em 2017, Neymar foi incluído pela Time na lista das 100 pessoas mais influentes do mundo. Em 2018, a France Football classificou Neymar como o terceiro jogador de futebol mais bem pago do mundo. A Forbes o classificou como o terceiro atleta mais bem pago do mundo em 2019, e o quarto atleta mais bem pago em 2020. Durante nove anos, Neymar foi um dos principais endossadores da empresa estadunidense de roupas esportivas Nike, até assinar com a alemã Puma em agosto de 2020.
