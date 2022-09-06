@@ -5,7 +5,7 @@ const links = [
   },
   {
     label: "Instagram",
-    url: "https://www.instagram.com/dev_hiago",
+    url: "https://www.instagram.com/http_hiago.js",
   },
   {
     label: "Linkedin",
